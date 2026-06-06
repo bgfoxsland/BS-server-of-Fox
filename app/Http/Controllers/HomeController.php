@@ -28,6 +28,7 @@ class HomeController extends Controller
                 '采用 Blessing Skin Server 搭建。',
                 '使用 Blessing Skin Server 稳定运行。',
                 '自豪地采用 Blessing Skin Server。',
+                '很好的皮肤站由 Blessing Skin Server 程序转起来的',
             ],
             option_localized('copyright_prefer', 0)
         );

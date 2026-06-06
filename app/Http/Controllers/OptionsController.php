@@ -31,6 +31,7 @@ class OptionsController extends Controller
                     ->option('4', '采用 Blessing Skin Server 搭建。')
                     ->option('5', '使用 Blessing Skin Server 稳定运行。')
                     ->option('6', '自豪地采用 Blessing Skin Server。')
+                    ->option('7', '很好的皮肤站由 Blessing Skin Server 程序转起来的')
                 ->description();
 
             $form->textarea('copyright_text')->rows(6)->description();

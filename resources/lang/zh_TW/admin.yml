@@ -12,7 +12,7 @@ notifications:
     title: 發送通知
     success: 發送成功
   receiver:
-    title: 接收人
+    title: 接收狐
     all: 所有用戶
     normal: 常規用戶
     uid: 指定用戶 ID

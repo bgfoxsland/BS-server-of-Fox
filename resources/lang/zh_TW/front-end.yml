@@ -84,7 +84,7 @@ skinlib:
     upload-at: 上傳于
     download: 下載
     delete-texture: 刪除材質
-    manage-notice: 被刪除或者設爲隱私的材質將從所有人的衣櫃收藏中刪除。
+    manage-notice: 被刪除或者設爲隱私的材質將從所有狐的衣櫃收藏中刪除。
   report:
     title: 報告
     reason: 請向我們說明原因。

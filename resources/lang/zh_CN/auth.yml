@@ -26,7 +26,7 @@ forgot:
   notice: 本邮件由系统自动发送，就算你回复了我们也不会回复你哦
   mail:
     title: 重置您在 :sitename 上的账户密码
-    message: 您收到这封邮件，是因为有人在 :sitename 的密码重置功能中使用了您的地址。
+    message: 您收到这封邮件，是因为有狐在 :sitename 的密码重置功能中使用了您的地址。
     reset: '点击此链接重置您的密码：<a href=":url">:url</a>'
     ignore: 如果您并没有访问过我们的网站，或没有进行上述操作，请忽略这封邮件。
 reset:
@@ -59,7 +59,7 @@ oauth:
     permissions: 权限
   scope:
     user:
-      read: 登录并读取您的个人信息
+      read: 登录并读取您的个狐信息
     notification:
       read: 允许应用读取您的通知
       readwrite: 允许应用发送通知

@@ -13,7 +13,7 @@ upload:
   invalid-size: 無效的 :type 文件（寬度 :width，高度 :height）
   invalid-hd-skin: 無效的皮膚（寬度與高度應爲 32 的整倍數）
   lack-score: 您沒有足夠的積分上載材質。
-  repeated: 材質已被其他人上載過。您可以直接將其添加到衣櫃。
+  repeated: 材質已被其他狐上載過。您可以直接將其添加到衣櫃。
   success: 材質 :name 上載成功。
 delete:
   success: 成功刪除材質。

@@ -4,7 +4,7 @@ auth:
   loggingIn: 登录中
   tooManyFails:
     captcha: 你尝试的次数太多啦，请输入验证码
-    recaptcha: 你尝试的次数太多啦，请通过 reCAPTCHA 人机验证
+    recaptcha: 你尝试的次数太多啦，请通过 reCAPTCHA 狐机验证
   emptyEmail: 你还没有填写邮箱哦
   invalidConfirmPwd: 密码和确认的密码不一样诶？
   emptyNickname: 你还没有填写昵称哦
@@ -67,14 +67,14 @@ skinlib:
     texture-name: 材质名称
     texture-type: 材质类型
     select-file: 选择文件
-    privacy-notice: 其他人将不会在皮肤库中看到此材质
+    privacy-notice: 其他狐将不会在皮肤库中看到此材质
     set-as-private: 设置为私密材质
     button: 确认上传
     cost: 这会消耗您约 :score 积分。
     award: 上传公开材质至皮肤库可以获得 :score 积分奖励。
   show:
     anonymous: 登录后才能使用衣柜哦
-    likes: 收藏人数
+    likes: 收藏狐数
     detail: 详细信息
     name: 名称
     edit: 修改
@@ -218,7 +218,7 @@ admin:
     confirmDelete: 确认删除吗？此操作不可恢复。
 report:
   tid: 材质 ID
-  reporter: 举报人
+  reporter: 举报狐
   reason: 举报原因
   status-title: 状态
   status:

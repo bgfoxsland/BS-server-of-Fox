@@ -13,7 +13,7 @@
 
 优雅的开源 Minecraft 皮肤站，现在，回应您的等待。
 
-Blessing Skin 是一款能让您上传、管理和分享您的 Minecraft 皮肤和披风的 Web 应用程序。与修改游戏材质包不同的是，所有人都能在游戏中看到各自的皮肤和披风（当然，前提是玩家们要使用同一个皮肤站）。
+Blessing Skin 是一款能让您上传、管理和分享您的 Minecraft 皮肤和披风的 Web 应用程序。与修改游戏材质包不同的是，所有狐都能在游戏中看到各自的皮肤和披风（当然，前提是玩家们要使用同一个皮肤站）。
 
 Blessing Skin 是一个开源的 PHP 项目，这意味着您可以自由地在您的服务器上部署它。
 
@@ -66,7 +66,7 @@ Blessing Skin 提供了强大的插件系统，您可以通过添加多种多样
 
 详情可阅读 [这里](https://blessing.netlify.app/build.html)。
 
-> 您可以订阅我们的 Telegram 频道 [Blessing Skin News](https://t.me/blessing_skin_news) 来获取最新开发动态。当有新的 Commit 被推送时，我们的机器人将会在频道内发送一条消息来提示您能否拉取最新代码，以及拉取后应该做什么。
+> 您可以订阅我们的 Telegram 频道 [Blessing Skin News](https://t.me/blessing_skin_news) 来获取最新开发动态。当有新的 Commit 被推送时，我们的机器狐将会在频道内发送一条消息来提示您能否拉取最新代码，以及拉取后应该做什么。
 
 ## 国际化（i18n）
 

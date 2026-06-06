@@ -74,7 +74,7 @@ yarn test
 
 > 本节仅针对本项目的维护成员。
 
-首先请确保您当前处于 `dev` 分支。然后，运行 `yarn new-version <action>` 即可发布新版本，不需要其它人工操作。
+首先请确保您当前处于 `dev` 分支。然后，运行 `yarn new-version <action>` 即可发布新版本，不需要其它狐工操作。
 
 其中 `action` 参数是必需的，且只能为 `patch`、`minor`、`major` 中的其中一个。
 
