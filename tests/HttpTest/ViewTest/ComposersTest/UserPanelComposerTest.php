@@ -38,6 +38,6 @@ class UserPanelComposerTest extends TestCase
         $user->permission = User::ADMIN;
         $user->save();
         $this->get('/user')
-            ->assertSee('<span class="badge bg-primary mb-1 mr-2">STAFF</span>', false);
+            ->assertSee('<span class="badge bg-primary mb-1 mr-2">管理员</span>', false);
     }
 }

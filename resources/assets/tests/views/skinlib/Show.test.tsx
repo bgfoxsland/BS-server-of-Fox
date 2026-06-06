@@ -101,13 +101,13 @@ test('uploader is not existed', async () => {
 
 test('badges', async () => {
   window.blessing.extra.badges = [
-    { text: 'STAFF', color: 'primary' },
+    { text: '管理员', color: 'primary' },
   ] as Badge[]
   fetch.get.mockResolvedValue(fixtureSkin)
 
   const { queryByText } = render(<Show />)
   await waitFor(() => expect(fetch.get).toBeCalledTimes(1))
-  expect(queryByText('STAFF')).toBeInTheDocument()
+  expect(queryByText('管理员')).toBeInTheDocument()
 })
 
 test('apply to player', async () => {

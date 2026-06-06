@@ -192,7 +192,7 @@ class SkinlibControllerTest extends TestCase
         $uploader->save();
         $this->get('/skinlib/show/'.$texture->tid)
             ->assertSee('primary')
-            ->assertSee('STAFF');
+            ->assertSee('管理员');
         $uid = $uploader->uid;
         $filter->add('user_badges', function ($badges, $uploader) use ($uid) {
             $this->assertEquals($uid, $uploader->uid);
