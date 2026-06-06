@@ -16,6 +16,19 @@
           <li class="nav-header">{{ trans('general.user-center') }}</li>
           {{ include('shared.side-menu', {type: 'user'}) }}
           <li class="nav-header">{{ trans('general.explore') }}</li>
+          <li class="nav-item ">
+          <a href="https://www.foxsland.top/skinlib" class="nav-link "><i class="nav-icon fas fa-home"></i><p class="ml-1"> 服务器官网</p></a>
+          </li>
+          <li class="nav-item ">
+          <a href="https://bbs.foxsland.top/skinlib" class="nav-link "><i class="nav-icon fas fa-comments"></i><p class="ml-1"> 服务器论坛</p></a>
+          </li>
+          </li>
+          <li class="nav-item ">
+          <a href="https://doc.foxsland.top/skinlib" class="nav-link "><i class="nav-icon fas fa-book"></i><p class="ml-1"> 服务器文档</p></a>
+          </li>
+          <li class="nav-item ">
+          <a href="https://qm.qq.com/q/snlKlRX0BO" class="nav-link "><i class="nav-icon fas fa-bookmark"></i><p class="ml-1"> 玩家交流群</p></a>
+          </li>
           {{ include('shared.side-menu', {type: 'explore'}) }}
           {% if auth_user().admin %}
             <li class="nav-header">{{ trans('general.manage') }}</li>
