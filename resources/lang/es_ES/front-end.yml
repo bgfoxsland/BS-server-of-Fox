@@ -30,6 +30,7 @@ auth:
   forgot:
     login-link: Lo recuerdo
 skinlib:
+  exceed-max-size: 上传内容分辨率不得大于64x64像素
   private: Privado
   anonymous: Inicie sesión primero.
   reset: Restablecer filtro

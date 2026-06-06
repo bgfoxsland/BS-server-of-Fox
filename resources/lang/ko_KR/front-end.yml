@@ -30,6 +30,7 @@ auth:
   forgot:
     login-link: 오잉? 기억난 네요
 skinlib:
+  exceed-max-size: 上传内容分辨率不得大于64x64像素
   private: 비공개
   anonymous: 우선 로그인하십시오.
   reset: 필터 초기화

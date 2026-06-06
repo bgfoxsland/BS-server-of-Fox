@@ -240,7 +240,16 @@ class SkinlibController extends Controller
 
             return json($message, 1);
         }
-
+        // 新增：限制steve和alex类型的分辨率不大于64x64
+        if (($type == 'steve' || $type == 'alex') && ($size[0] > 64 || $size[1] > 64)) {
+            return json(trans('skinlib.upload.exceed-max-size', [
+                'type' => trans('general.skin'),
+                'maxWidth' => 64,
+                'maxHeight' => 64,
+                'width' => $size[0],
+                'height' => $size[1],
+            ]), 1);
+        }
         $ratio = $size[0] / $size[1];
         if ($type == 'steve' || $type == 'alex') {
             if ($ratio != 2 && $ratio != 1 || $type === 'alex' && $ratio === 2) {

@@ -30,6 +30,7 @@ auth:
   forgot:
     login-link: I do remember it
 skinlib:
+  exceed-max-size: 上传内容分辨率不得大于64x64像素
   private: Private
   anonymous: Please login first.
   reset: Reset Filter
