@@ -11,7 +11,7 @@ const styles = css`
   }
 `
 
-const domainNames = new Set(['qq.com', '163.com', 'gmail.com', 'hotmail.com'])
+const domainNames = new Set(['qq.com','outlook.com','163.com', 'gmail.com', 'hotmail.com','189.com','139.com'])
 
 type Props = Omit<Autosuggest.InputProps<string>, 'onChange'> & {
   onChange(value: string): void

@@ -19,6 +19,9 @@ test('basic typing', () => {
   expect(queryByText('abc@163.com')).toBeInTheDocument()
   expect(queryByText('abc@gmail.com')).toBeInTheDocument()
   expect(queryByText('abc@hotmail.com')).toBeInTheDocument()
+  expect(queryByText('abc@outlook.com')).toBeInTheDocument()
+  expect(queryByText('abc@189.com')).toBeInTheDocument()
+  expect(queryByText('abc@139.com')).toBeInTheDocument()
 
   fireEvent.input(input, { target: { value: '' } })
   expect(queryByText('abc@qq.com')).not.toBeInTheDocument()
@@ -44,6 +47,9 @@ test('do not suggest when `at` is existed', () => {
   expect(queryByText('abc@outlook.com@163.com')).not.toBeInTheDocument()
   expect(queryByText('abc@outlook.com@gmail.com')).not.toBeInTheDocument()
   expect(queryByText('abc@outlook.com@hotmail.com')).not.toBeInTheDocument()
+  expect(queryByText('abc@outlook.com@outlook.com')).not.toBeInTheDocument()
+  expect(queryByText('abc@outlook.com@139.com')).not.toBeInTheDocument()
+  expect(queryByText('abc@outlook.com@189.com')).not.toBeInTheDocument()
 })
 
 test('display suggestions when typing with configured domain names', () => {
@@ -56,6 +62,9 @@ test('display suggestions when typing with configured domain names', () => {
   expect(queryByText('abc@163.com')).toBeInTheDocument()
   expect(queryByText('abc@gmail.com')).toBeInTheDocument()
   expect(queryByText('abc@hotmail.com')).toBeInTheDocument()
+  expect(queryByText('abc@outlook.com')).toBeInTheDocument()
+  expect(queryByText('abc@189.com')).toBeInTheDocument()
+  expect(queryByText('abc@139.com')).toBeInTheDocument()
 })
 
 test('events', () => {
